@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const searchParams = new URLSearchParams({
-  api_key: '7df410b2047c6efdac8b2acbf29ad6ea',
+  api_key: 'a89efc13357c0c3140da0ea778285af5',
 });
 
 axios.defaults.baseURL = 'https://api.themoviedb.org/3';

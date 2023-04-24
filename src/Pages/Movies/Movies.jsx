@@ -18,7 +18,6 @@ const Movies = () => {
   return (
     <>
       <Search setSearchParams={setSearchParams} />
-
       <MoviesList movies={movies} />
     </>
   );

@@ -1,4 +1,4 @@
-import { useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import { getTrending } from 'services/Api';
 import { MoviesList } from 'components/MoviesItems/MoviesList';
 import { HomeTitle } from './Home.styled';
@@ -12,11 +12,9 @@ const Home = () => {
 
   return (
     <>
-    
-    <HomeTitle> Trending today </HomeTitle>
+      <HomeTitle> Trending today </HomeTitle>
       <MoviesList movies={movies} />
-      
     </>
   );
 };
- export default Home;
+export default Home;

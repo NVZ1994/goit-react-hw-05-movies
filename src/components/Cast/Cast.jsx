@@ -1,10 +1,7 @@
 import { useState, useEffect } from 'react';
-import {useParams} from 'react-router-dom'
+import { useParams } from 'react-router-dom';
 import { getMovieCredits } from 'services/Api';
 import { Img, Item, ListItem } from './Cast.styled';
-
-
-
 
 const Cast = () => {
   const [cast, setCast] = useState(null);

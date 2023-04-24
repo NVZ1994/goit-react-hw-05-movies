@@ -21,19 +21,16 @@ const MovieDetails = () => {
 
   return (
     <>
-     
-        <Back to={backLink}> ← Go back</Back>
-        <MovieDetailsCard movie={movieDetails} />
-      
-        <Back to={'cast'} state={{ from: backLink }}>
-          Cast
-        </Back>
-        <Back to={'reviews'} state={{ from: backLink }}>
-          Reviews
-        </Back>
-      
+      <Back to={backLink}> ← Go back</Back>
+      <MovieDetailsCard movie={movieDetails} />
+
+      <Back to={'cast'} state={{ from: backLink }}>
+        Cast
+      </Back>
+      <Back to={'reviews'} state={{ from: backLink }}>
+        Reviews
+      </Back>
       <Outlet />
-     
     </>
   );
 };
